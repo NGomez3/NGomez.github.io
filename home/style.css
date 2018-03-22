@@ -1,0 +1,160 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 3em;
+	margin: 0;
+	font-family: 'Special Elite', cursive;
+}
+
+h3{
+	margin-top:0;
+	margin-bottom: 0;
+	font-size: 2em;
+	text-shadow: 2px 2px white;
+}
+
+#profile{
+	width: 20%; 
+	height: 20%; 
+	border-radius: 50%;
+	border: 5px solid white;
+	margin-bottom: 0;
+}
+
+ul {
+	bottom: 0px;
+	width:100%;
+	left: 0;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position:fixed;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+	background-color: black;
+}
+
+#home{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+#about{
+	background-color: white;
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+}
+
+#about p{
+	text-align: left;
+	font-size: 20px;
+}
+
+#skill{
+	background-color: #ff4d4d;
+	padding-top: 2%;
+	padding-left: 8%;
+	padding-bottom: 2%;
+}
+
+#skill div{
+	width: 90%;
+	background-color: rgb(255, 255, 255);
+}
+
+#skill div div{
+	text-align: left;
+}
+
+#skill div div p, a, h4, h5{
+	padding-left: 2%;
+}
+
+#skill div div img{
+	padding-left: 45%;
+	height: 100px;
+	width: 100px;
+}
+
+
+#block{
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+#expand1, #expand2, #expand3, #expand4{
+	cursor: pointer;
+}
+
+#collapse1, #collapse2, #collapse3, #collapse4{
+	display: none;
+}
+
+#collapse1.active, #collapse2.active, #collapse3.active, #collapse4.active{
+	display:block;
+}
+
+#contact{
+	padding-top: 2%;
+	background-color: #1f1f7a;
+	padding-bottom: 5%;
+}
+
+#contact img{
+	width: 50px;
+	height: 50px;
+}
+
+#contact div{
+	display: inline-block;
+	width: 25%;
+}
+
+#contact div a{
+	text-decoration: none;	
+	color: black;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(background.jpg) no-repeat;
+    background-size: cover; 
+}
